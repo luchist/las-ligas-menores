@@ -33,13 +33,7 @@ header {
 .menu__link{
     display: inline-block;
     text-decoration: none;
-    /* border-bottom: #5C79A3; */
-    border-bottom: 0px solid #000;
-    border-bottom-width: 2px;
-    border-top: #AADDFF;
-    border-left: #AADDFF;
-    border-right: #AADDFF;
-    border-style: solid;
+    border-style: none;
 }
 
 main{
