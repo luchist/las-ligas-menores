@@ -22,6 +22,11 @@ header {
     font-size: 1.8em;
 }
 
+
+header > nav > ul > li > .selected{
+    font-weight: bold;
+}
+
 .menu{
     display: flex;
     list-style: none;
@@ -34,6 +39,7 @@ header {
     display: inline-block;
     text-decoration: none;
     border-style: none;
+    color: #5C79A3;
 }
 
 main{

@@ -1,0 +1,17 @@
+main{
+    display: flex;
+}
+
+h3{
+    margin-top: 2.5em;
+    margin-bottom: 1em;
+    color: #FFFFFF;
+}
+
+p{
+    color: #AADDFF;
+}
+
+.history__image{
+    margin: 3em
+}
