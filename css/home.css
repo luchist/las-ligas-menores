@@ -1,0 +1,78 @@
+main{
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    grid-template-rows: 5% 80% 10%;
+    gap: 1%;
+}
+
+.videoplayer{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+.musicplayer__1{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+.musicplayer__2{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+#youtube__video{
+    width: 100%;
+    height: 100%;
+}
+
+#spotify__playlist{
+    width: 100%;
+    height: 100%;
+}
+
+@media (max-width:1550px) {
+    main{
+        font-size: 1.7em;
+        height: 100%;
+    }
+}
+
+
+@media (max-width:1000px) {
+    main{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .videoplayer{
+        display: flex;
+        justify-content: center;
+    }
+
+    .musicplayer__1{
+        display: flex;
+        justify-content: center;
+    }
+
+    .musicplayer__2{
+        display: flex;
+        justify-content: center;
+    }
+
+    #youtube__video{
+        height: 300px;
+        width: 80%;
+    }
+
+    #spotify__playlist{
+        width: 80%;
+        height: 120%;
+    }
+}

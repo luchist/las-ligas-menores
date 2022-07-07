@@ -52,11 +52,6 @@ main{
     height: 96%;
 }
 
-.videoplayer{
-    display: flex;
-    justify-content: center;
-}
-
 footer{
     display: flex;
     background-color: #AADDFF;
