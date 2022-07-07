@@ -4,6 +4,13 @@
     grid-template-rows: 50% 50%;
 }
 
+@media (max-width:1400px) {
+    .discography__gallery{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
 .discography__gallery__album{
     margin-top: 2em;
     margin-right: 3em;
