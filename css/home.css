@@ -69,10 +69,12 @@ main{
     #youtube__video{
         height: 300px;
         width: 80%;
+        min-width: 340px;
     }
 
     #spotify__playlist{
         width: 80%;
         height: 120%;
+        min-width: 340px;
     }
 }
