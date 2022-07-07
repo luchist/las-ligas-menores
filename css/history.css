@@ -1,5 +1,7 @@
 main{
-    display: flex;
+    display: grid;
+    grid-template-columns: 25% 50%; 
+    grid-template-rows: 60% 40%;
 }
 
 h3{
