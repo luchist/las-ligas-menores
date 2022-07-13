@@ -39,6 +39,14 @@ header > nav > ul > li > .selected{
     padding: 0 2px;
 }
 
+.menu__item{
+    transition: all 0.2s;
+}
+
+.menu__item:hover{
+    font-size: 1.1em;
+}
+
 .menu__link{
     display: inline-block;
     text-decoration: none;
