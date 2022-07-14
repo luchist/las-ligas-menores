@@ -40,7 +40,7 @@ header > nav > ul > li > .selected{
 }
 
 .menu__item{
-    transition: all 0.2s;
+    transition: font-size 0.15s;
 }
 
 .menu__item:hover{
