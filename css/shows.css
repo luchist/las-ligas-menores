@@ -10,6 +10,12 @@
     margin-right: 3em;
     margin-left: 3em;
     display: flex;
+    transition: transform 0.8s;
+}
+
+.shows__gallery__item:hover{
+    font-weight: bold;
+    transform: scale(1.08,1.08);
 }
 
 #shows__gallery__item__1{
@@ -54,6 +60,11 @@
     font-weight: bold;
     color: #AADDFF;
     margin-bottom: 1em;
+    transition: all 0.8s;
+}
+
+.shows__gallery__item__title:hover{
+    font-weight: bolder;
 }
 
 .shows__gallery__item__date{
