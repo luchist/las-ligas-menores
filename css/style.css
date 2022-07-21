@@ -93,6 +93,11 @@ footer{
     width:100%;
 }
 
+#footer{
+    background-color: #AADDFF;
+    color: #000;
+}
+
 .centered-footer{
     align-items: center !important;
     justify-content: center  !important;
