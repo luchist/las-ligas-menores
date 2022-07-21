@@ -11,3 +11,11 @@ p{
 .history__image{
     margin: 3em
 }
+
+.paragraph{
+    transition: transform 0.8s;
+}
+
+.paragraph:hover{
+    transform: translate(10px,10px);
+}
