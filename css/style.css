@@ -32,6 +32,23 @@ header > nav > ul > li > .selected{
     font-weight: bold;
 }
 
+#navbar{
+    background-color: #AADDFF;
+    color: #5C79A3;
+}
+
+#navbar > .container-fluid > .navbar-collapse > .navbar-nav > .nav-item > .nav-link{
+    color: #5C79A3;
+}
+
+#navbar > .container-fluid > .navbar-collapse > .navbar-nav > .nav-item:active{
+    font-weight: bold;
+}
+
+#navbar > .container-fluid > .navbar-collapse > .navbar-nav > .nav-item > .active{
+    font-weight: bolder;
+}
+
 .menu{
     display: flex;
     list-style: none;
