@@ -1,13 +1,10 @@
-.discography__gallery{
-    display: grid;
-    grid-template-columns: 25% 25% 25% 25%; 
-    grid-template-rows: 50% 50%;
-}
-
 .discography__gallery__album{
     margin-top: 2em;
-    margin-right: 3em;
-    margin-left: 3em;
+    transition: transform 0.8s;
+}
+
+.discography__gallery__album:hover{
+    transform: scale(1.08,1.08);
 }
 
 @media (max-width:1400px) {
